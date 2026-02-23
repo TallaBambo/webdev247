@@ -1,5 +1,4 @@
 import Image from "next/image";
-import CircularProgressBar from "./progressBar";
 import Link from "next/link";
 
 const navLinks = [
@@ -81,7 +80,6 @@ function Footer() {
           </div>
         </div>
       </div>
-      <CircularProgressBar />
       <hr />
       <div className="footer-bottom display-flex">
         <div className="social-icons display-flex">
