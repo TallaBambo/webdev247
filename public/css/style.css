@@ -355,7 +355,6 @@ a {
   width: 100vw;
   background-color: #121212;
   z-index: -2;
-  padding-top: 50px;
   overflow: hidden !important;
 }
 
@@ -1072,6 +1071,10 @@ a {
 
   .headings-container {
     flex-direction: column;
+  }
+
+  .hero-slogan h1 span {
+    font-size: 50px;
   }
 
   .headings-left {
