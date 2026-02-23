@@ -412,64 +412,21 @@ a {
   justify-content: space-between;
   align-items: center;
   position: relative;
-  color: transparent;
-  animation: text_reveal 0.5s ease forwards;
+  color: #ebebeb;
   animation-delay: 1s;
 }
+
 .hero-slogan h1 p {
   position: relative;
-  color: transparent;
+  color: #ebebeb;
   animation: text_reveal 0.5s ease forwards;
   animation-delay: 1s;
 }
 
-.hero-slogan h1:nth-child(1) p:nth-child(1) {
-  animation-delay: 1s;
-  margin-right: 10px;
-}
-.hero-slogan h1:nth-child(1) p:nth-child(1) span {
-  animation-delay: 1.5s;
-}
-
-.hero-slogan h1:nth-child(1) p:nth-child(2) {
-  animation-delay: 2s;
-}
-.hero-slogan h1:nth-child(1) p:nth-child(2) span {
-  animation-delay: 2.5s;
-}
-
-.hero-slogan h1:nth-child(2) {
-  animation-delay: 3s;
-}
-.hero-slogan h1:nth-child(2) span {
-  animation-delay: 3.5s;
-}
 .hero-slogan h1 span {
   color: transparent;
   font-size: 70px;
-  animation: text_reveal_orange 0.5s ease forwards;
-}
-.hero-slogan h1 small {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 0;
-  background-color: #ff5722;
-  animation: text_reveal_box 1s ease;
-  animation-delay: 0.5s;
-}
-
-.hero-slogan h1:nth-child(1) p:nth-child(1) small {
-  animation-delay: 0.5s;
-}
-
-.hero-slogan h1:nth-child(1) p:nth-child(2) small {
-  animation-delay: 1.5s;
-}
-
-.hero-slogan h1:nth-child(2) small {
-  animation-delay: 2.5s;
+  -webkit-text-stroke: 3px #ff5722;
 }
 
 .hero-slogan h2 {
@@ -893,27 +850,6 @@ a {
   100% {
     transform: scale(1.6);
     opacity: 0;
-  }
-}
-
-@keyframes text_reveal_box {
-  50% {
-    width: 100%;
-    left: 0;
-  }
-  100% {
-    width: 0;
-    left: 100%;
-  }
-}
-@keyframes text_reveal {
-  100% {
-    color: #ebebeb;
-  }
-}
-@keyframes text_reveal_orange {
-  100% {
-    -webkit-text-stroke: 3px #ff5722;
   }
 }
 

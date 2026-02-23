@@ -49,23 +49,21 @@ export default function Home() {
           }}
         >
           <div className="hero-slogan">
-            <h1>
+            <h1 data-aos="fade-up" data-aos-delay="200">
               <p>
-                <small></small>
                 <span>W</span>eb
               </p>
               <p>
-                <small></small>
                 <span>D</span>ev
               </p>
             </h1>
-            <h1>
-              <small></small>24<span>/</span>7
+            <h1 data-aos="fade-up" data-aos-delay="400">
+              24<span>/</span>7
             </h1>
-            <h2 data-aos="fade-up" data-aos-delay="200">
+            <h2 data-aos="fade-up" data-aos-delay="600">
               Empowering your brand with high-performance web experiences.
             </h2>
-            <p data-aos="fade-up" data-aos-delay="400">
+            <p data-aos="fade-up" data-aos-delay="800">
               Transform your ideas into cutting-edge web solutions. We
               specialize in crafting stunning websites and web applications
               providing round-the-clock support to ensure your online presence
@@ -76,7 +74,7 @@ export default function Home() {
                 href="/contact"
                 className="btn btn-fill--light"
                 data-aos="fade-up"
-                data-aos-delay="600"
+                data-aos-delay="1000"
               >
                 Get a free quote
               </Link>
@@ -84,7 +82,7 @@ export default function Home() {
                 href="/portfolio"
                 className="btn btn-clear--light"
                 data-aos="fade-up"
-                data-aos-delay="800"
+                data-aos-delay="1200"
               >
                 Projects overview
                 <i className="fa-solid fa-circle-chevron-right"></i>
