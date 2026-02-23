@@ -962,7 +962,7 @@ a {
   }
 
   .hero-content {
-    padding: 30px 20px 50px 20px;
+    padding: 30px 20px 30px 10px;
   }
 
   .hero-slogan h1 {
@@ -1086,12 +1086,8 @@ a {
     font-size: 16px;
   }
 
-  .hero-btn {
-    flex-direction: column;
-    align-items: flex-start;
-  }
   .hero-btn .btn {
-    margin: 5px 0;
+    padding: 8px 12px;
   }
 
   .expertise-service-heading h1 {
