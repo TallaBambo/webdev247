@@ -3,6 +3,7 @@ import Link from "next/link";
 import porfolio from "./_data/portfolio.json";
 import PortfolioCard from "./_components/PortfolioCard";
 import Headings from "./_components/Headings";
+import ParticleBackground from "./_components/Particles";
 
 export default function Home() {
   const featuredProjects = porfolio.slice(0, 4);
@@ -48,6 +49,7 @@ export default function Home() {
               "linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url('/images/bgImages/hero-bg.jpg')",
           }}
         >
+          <ParticleBackground />
           <div className="hero-slogan">
             <h1 data-aos="fade-up" data-aos-delay="200">
               <p>

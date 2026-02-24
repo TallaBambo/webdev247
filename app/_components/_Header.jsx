@@ -4,7 +4,6 @@ import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
-import CircularProgressBar from "./progressBar";
 
 export const navLinks = [
   {
@@ -42,7 +41,7 @@ function Header() {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 50) {
+      if (window.scrollY > 100) {
         setIsSticky(true);
       } else {
         setIsSticky(false);
@@ -92,7 +91,6 @@ function Header() {
           </div>
         </div>
       </header>
-      {isSticky && <CircularProgressBar />}
     </>
   );
 }

@@ -11,7 +11,7 @@ function Headings({ title, description }) {
         </h2>
       </div>
       <div className="headings-right" data-aos="fade-up" data-aos-delay="400">
-        <h2>{description}</h2>
+        <h2 dangerouslySetInnerHTML={{ __html: description }} />
       </div>
     </div>
   );

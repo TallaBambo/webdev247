@@ -1,4 +1,5 @@
 import Link from "next/link";
+import ParticleBackground from "./Particles";
 
 function HeroDetail({ title, description, imageUrl, action, target, icon }) {
   return (
@@ -10,7 +11,7 @@ function HeroDetail({ title, description, imageUrl, action, target, icon }) {
     >
       <div className="hero-detail-content display-flex">
         <h1
-          className="heading primary-heading"
+          className="heading secondary-heading"
           data-aos="fade-up"
           data-aos-delay="100"
         >
@@ -30,6 +31,7 @@ function HeroDetail({ title, description, imageUrl, action, target, icon }) {
           </Link>
         )}
       </div>
+      <ParticleBackground />
     </section>
   );
 }
