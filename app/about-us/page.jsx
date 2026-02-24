@@ -274,7 +274,7 @@ function AboutUs() {
               <h2 className="heading secondary-heading display-flex">
                 <span className="point-dot"></span>let's work together
               </h2>
-              <h1>Ready to scale up your business?</h1>
+              <h1>Ready to scale your business through web programming?</h1>
               <Link href="/contact" className="btn btn-clear--light">
                 Connect with us!{" "}
                 <i className="fa-solid fa-circle-chevron-right"></i>
