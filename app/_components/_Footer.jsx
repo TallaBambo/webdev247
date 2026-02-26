@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import CircularProgressBar from "./progressBar";
+import Contact from "./Contact";
 
 const navLinks = [
   {
@@ -75,7 +76,7 @@ function Footer() {
               </li>
               <li className="display-flex">
                 <i className="fa-sharp fa-solid fa-phone"></i>
-                <a href="tel:670704984">+44 7365873385</a>
+                <a href="tel:+447365873385">+44 7365873385</a>
               </li>
             </ul>
           </div>
@@ -114,6 +115,7 @@ function Footer() {
       </div>
       <hr />
       <CircularProgressBar />
+      <Contact />
     </footer>
   );
 }

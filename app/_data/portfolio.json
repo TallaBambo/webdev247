@@ -2,59 +2,121 @@
   {
     "title": "The retreat cameroon",
     "slug": "the-retreat-cameroon",
-    "tech": ["NodeJS", "NextJS", "CSS", "MongoDB"],
-    "description": "",
+    "tech": ["NodeJS", "NextJS", "CSS", "MongoDB", "Base44"],
+    "description": "A premier real estate firm specializing in luxury furnished apartments. They required a digital presence that matched the elegance of their physical properties while providing the robust functionality needed a secure data management.",
     "techStack": [
       {
-        "techName": "",
-        "purpose": ""
+        "techName": "Frontend Framework: (Next.js)",
+        "purpose": "was utilized for Server-Side Rendering (SSR), ensuring that luxury property listings loaded instantly and were perfectly indexed for SEO."
+      },
+      {
+        "techName": "Backend Engine: (Node.js/Express).",
+        "purpose": "A high concurrent Node.js/Express server handle the complex CRUD oparations data(blogs, apartments and users) management and user(receptionists) authentication."
+      },
+      {
+        "techName": "CSS:",
+        "purpose": "Custom CSS was engineered to reflect the brand's luxury aesthetic with pixel-perfect precision."
+      },
+      {
+        "techName": "Database: MongoDB",
+        "purpose": "provided a flexible NoSQL schema to manage diverse property attributes and user data efficiently."
+      },
+      {
+        "techName": "AWS S3:",
+        "purpose": "We integrated AWS S3 to host high-definition gallery images of the apartments & blogs, ensuring fast, global delivery."
+      },
+      {
+        "techName": "Base44 AI web builder:",
+        "purpose": "Rapid feature iteration and AI-assisted content optimization. used for a seamless maintenance while retaining the core performance of our initial custom build."
       }
     ],
     "problemsSolutions": [
       {
-        "problem": "",
-        "solution": ""
+        "problem": "Dynamic Content Management",
+        "solutions": [
+          "<span>Custom Engineering & Admin Empowerment:</span> We solved this by engineering a Secure Admin Dashboard, a private command center built exclusively for the staff.",
+          "<span>Content Management: </span>We built a custom interface using React and Node.js that allows staff to upload new apartment photos directly to AWS S3 and update pricing in the MongoDB database with a simple form.",
+          "<span>Role-Based Access Control (RBAC): </span>To ensure security, we implemented an authentication system where only authorized staff members can log in to make changes, keeping the core site data safe from unauthorized access.",
+          "<span>Integrated Blog Engine: </span>We engineered a seamless blog management tool within the dashboard, enabling the team to publish industry news and property highlights to boost their SEO without needing a developer."
+        ]
       }
     ],
-    "image": "/images/portfolio/retreat-cameroon.webp"
+    "image": "/images/portfolio/retreat-cameroon.webp",
+    "conclusion": "The Retreat Cameroon is a perfect example of how we adapt to the evolving tech landscape to keep our clients ahead. We combined the raw power of full-stack engineering with the speed of AI to deliver a luxury digital experience."
   },
   {
     "title": "Ovich News",
     "slug": "ovich-news",
     "tech": ["NodeJS", "PugJS", "CSS", "MongoDB"],
-    "description": "",
+    "description": "A flagship platform of the Ovich Media Group, required a digital infrastructure that could handle rapid content publishing and high concurrent traffic. We engineered a solution that prioritizes performance and reliability, ensuring that breaking news reaches the public without delay.",
     "techStack": [
       {
-        "techName": "",
-        "purpose": ""
+        "techName": "Template Engine: PugJs",
+        "purpose": "was implemented to create clean, high-performance HTML templates. This allows for rapid server-side rendering, which is critical for news sites where speed directly impacts user retention and SEO rankings."
+      },
+      {
+        "techName": "Backend Engine: (Node.js/Express).",
+        "purpose": "A robust Node.js/Express environment manages the complex routing of categories, tags, and real-time news feeds."
+      },
+      {
+        "techName": "Styling: Custom CSS",
+        "purpose": "was developed to ensure a \"news-first\" layout—clean typography, clear hierarchies, and a mobile-responsive design that works perfectly for readers on the go."
+      },
+      {
+        "techName": "Database: MongoDB ",
+        "purpose": "acts as the central repository for thousands of articles, ensuring that even as the archive grows, search and retrieval remain instantaneous."
+      },
+      {
+        "techName": "Cloud Storage: ",
+        "purpose": "We integrated AWS S3 for media asset management. All news images and videos are served through this global cloud infrastructure to ensure maximum uptime and fast loading regardless of the user's location."
       }
     ],
     "problemsSolutions": [
       {
-        "problem": "",
-        "solution": ""
+        "problem": "The Ephemeral File System Crisis:",
+        "solutions": [
+          "Initially, we utilized Multer to handle image and video uploads directly into the Node.js file system on Heroku. However, due to Heroku’s \"ephemeral\" file system behavior, every time the server restarted or deployed a fresh build, all uploaded news media were wiped out. This created a high risk of data loss for a news organization that relies on a permanent archive.",
+          "<span>AWS S3 Cloud Integration: </span> To solve the file deletion issue, we decoupled the media storage from the web server. We migrated the entire upload pipeline to AWS S3. Now, when a reporter uploads a news image, it is sent directly to an encrypted S3 bucket. This ensures that media remains persistent, highly available, and globally accessible, regardless of server restarts or updates."
+        ]
+      },
+      {
+        "problem": "Complex Content Lifecycle:",
+        "solutions": [
+          "As a media group, Ovich needed a way to manage various contributors, from junior reporters to senior editors, while also handling a growing base of subscribed readers. Without a structured system, the risk of unauthorized content changes or data breaches was a major concern.",
+          "<span>Role-Based Access Control (RBAC): </span> We engineered a sophisticated RBAC system integrated with a user subscription model. This allows the Ovich Media Group to assign specific permissions to different staff levels. <br/> We built a custom registration and login system that allows readers to sign up and create unique profiles. This ensures that every comment and reply is tied to a verified user, significantly reducing spam and improving the quality of the conversation."
+        ]
       }
     ],
-    "image": "/images/portfolio/ovichnews.png"
+    "image": "/images/portfolio/ovichnews.png",
+    "conclusion": "Scaling a brand across 7 nations requires more than just a website; it requires a global digital strategy. At WebDev247, we provided the engineering backbone that allowed Ovich News to dominate international headlines. If you are ready to take your business beyond borders, we have the technical expertise to get you there."
   },
+
   {
     "title": "Golden Security",
     "slug": "golden-security",
     "tech": ["NodeJS", "PugJS", "CSS", "JavaScript"],
-    "description": "",
+    "description": "A security company involved in the sales of security accessories. We built a high-performance website designed to showcase their range of security accessories.",
     "techStack": [
       {
-        "techName": "",
-        "purpose": ""
-      }
-    ],
-    "problemsSolutions": [
+        "techName": "Logic & Routing: ",
+        "purpose": "We utilized Node.js to handle the backend architecture. This ensures the site remains responsive and can easily scale if Golden Security decides to transition into full e-commerce in the future."
+      },
       {
-        "problem": "",
-        "solution": ""
+        "techName": "High-Speed Rendering: Pug Js; ",
+        "purpose": "We implemented PugJS as the template engine. By rendering the product pages on the server, we significantly reduced \"Time to First Byte,\" ensuring that potential clients see the security accessories immediately upon clicking."
+      },
+      {
+        "techName": "Dynamic Interactivity: ",
+        "purpose": "Using Vanilla JavaScript, we engineered custom interactive elements—such as product zoom features and category filters—without the overhead of heavy frameworks, keeping the site lean and fast."
+      },
+      {
+        "techName": "Precision Styling: ",
+        "purpose": "Custom CSS was developed to reflect a \"Safety and Trust\" aesthetic. We used a clean, corporate layout that highlights the technical specifications of the surveillance hardware through professional typography and grid systems."
       }
     ],
-    "image": "/images/portfolio/golden-security.png"
+    "problemsSolutions": [],
+    "image": "/images/portfolio/golden-security.png",
+    "conclusion": "Golden Security demonstrates that a 'display' website doesn't have to be basic. We used professional-grade engineering to turn a product list into a high-performance publicity engine. At WebDev247, we believe every pixel should work as hard as your sales team. The focus was on Visual Authority and Brand Trust, ensuring that potential clients; from homeowners to large corporations could easily explore their inventory and understand the value of their high-tech security solutions."
   },
   {
     "title": "Ovalvich",
@@ -63,16 +125,78 @@
     "description": "",
     "techStack": [
       {
-        "techName": "",
-        "purpose": ""
-      }
-    ],
-    "problemsSolutions": [
+        "techName": "The Engine (Node.js): ",
+        "purpose": "We utilized Node.js to handle the heavy logic required to categorize and display multiple business sectors. This ensures the platform is future-proof and capable of handling complex data integrations as the firm grows."
+      },
       {
-        "problem": "",
-        "solution": ""
+        "techName": "The Interface (PugJS): ",
+        "purpose": "We implemented PugJS to deliver server-side rendered pages. For a corporate entity, this is critical; it ensures that mission-critical information loads instantly and is perfectly optimized for search engines (SEO), maintaining the firm's visibility in competitive markets."
+      },
+      {
+        "techName": "The Logic (JavaScript): ",
+        "purpose": "We used custom JavaScript to create smooth, interactive navigation, allowing investors to explore various business sectors (Real Estate, Finance, Technology, etc.) without page lag or friction."
+      },
+      {
+        "techName": "The Identity (CSS): ",
+        "purpose": "We engineered a bespoke CSS framework that reflects a \"New York Corporate\" aesthetic—clean, minimalist, and powerful. The design emphasizes professional typography and a structured layout to build immediate trust with high-net-worth visitors."
       }
     ],
-    "image": "/images/portfolio/ovalvich.png"
+    "problemsSolutions": [],
+    "image": "/images/portfolio/ovalvich.png",
+    "conclusion": "Ovalvich represents our capacity to deliver digital solutions that meet the rigorous standards of the New York investment market. We didn't just build a website; we established a global digital identity for a multi-sector powerhouse. At WebDev247, we bridge the gap between complex business structures and professional digital clarity."
+  },
+  {
+    "title": "Ovich Media",
+    "slug": "ovich-media",
+    "tech": ["NodeJS", "PugJS", "CSS", "JavaScript"],
+    "description": "Building a platform for a media group that operates across seven nations requires an architecture that is both authoritative and extremely efficient. We chose a server-side stack that emphasizes Technical Excellence and rapid content delivery.",
+    "techStack": [
+      {
+        "techName": "Architectural Core (Node.js): ",
+        "purpose": "We utilized Node.js to build a robust backbone capable of managing the group's diverse project portfolio. This provides the scalability needed as Ovich Media Group continues to expand its reach across continents."
+      },
+      {
+        "techName": "Server-Side Rendering (PugJS): ",
+        "purpose": "To ensure that the group's goals and project details are instantly accessible to investors and partners, we used PugJS. This ensures that the corporate message is pre-rendered for maximum speed and superior SEO performance."
+      },
+      {
+        "techName": "Interactive Storytelling (JavaScript): ",
+        "purpose": "We implemented custom JavaScript to create an interactive experience, allowing visitors to explore the group's presence in each of the 7 countries through dynamic maps and project timelines."
+      },
+      {
+        "techName": "Professional Identity (CSS): ",
+        "purpose": "We developed a custom CSS framework that reflects the group's status as a modern media powerhouse. The design balances transparency with professional authority, using a layout that highlights impact and growth."
+      }
+    ],
+    "problemsSolutions": [],
+    "image": "/images/portfolio/ovichmedia.png",
+    "conclusion": "The Ovich Media Group portal is a masterclass in corporate storytelling through engineering. We provided the platform that allowed a 7-country media giant to speak with one clear, powerful voice. At WebDev247, we don't just build sites; we build the digital infrastructure for international expansion."
+  },
+  {
+    "title": "Manjuwele Lodge",
+    "slug": "manjuwele-lodge",
+    "tech": ["NodeJS", "PugJS", "CSS", "JavaScript"],
+    "description": "For a hotel in a scenic coastal city like Limbe in Cameroon, the website served as the first \"welcome\" a guest receives. We chose a server-side stack that prioritizes high-fidelity imagery and lightning-fast loading speeds to capture interest instantly.",
+    "techStack": [
+      {
+        "techName": "Performance-First Rendering (PugJS): ",
+        "purpose": "To ensure that potential guests see the beautiful environment of Manjuwele Lodge the moment they land on the page, we used PugJS. This allows the server to pre-render the layout, ensuring that the images of the lodge loads without the typical lag associated with client-side frameworks."
+      },
+      {
+        "techName": "Stable Backend (Node.js): ",
+        "purpose": "We utilized Node.js to manage the routing between the different room categories and amenity pages. This provides a robust foundation that can easily be expanded to include full online reservations in a future update."
+      },
+      {
+        "techName": "Interactive Exploration (JavaScript): ",
+        "purpose": "We implemented custom JavaScript to build immersive image galleries and sliders. This allows users to \"tour\" the rooms and the environment from their mobile devices or desktops with smooth, responsive transitions."
+      },
+      {
+        "techName": "Atmospheric Design (CSS): ",
+        "purpose": "We engineered a custom CSS framework that reflects the tranquil and tropical \"Limbe Vibe.\" The design uses soft shadows, clean grids, and a mobile-optimized layout to ensure the lodge looks as inviting on a smartphone as it does in person."
+      }
+    ],
+    "problemsSolutions": [],
+    "image": "/images/portfolio/manjuwele.png",
+    "conclusion": "Manjuwele Lodge is a testament to how we capture the essence of a physical location and translate it into a digital experience. We didn't just build a website; we built a window into the Limbe experience. At WebDev247, we help hospitality brands turn views into visits"
   }
 ]

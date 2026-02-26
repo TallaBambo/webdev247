@@ -108,7 +108,7 @@ export default function Home() {
                   className="expertise-service display-flex"
                   key={i}
                 >
-                  <span className="display-flex">
+                  <span className="display-flex icon">
                     <i className={service.icon}></i>
                   </span>
                   <div>

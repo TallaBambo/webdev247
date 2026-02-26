@@ -1,0 +1,100 @@
+[
+  {
+    "title": "Web Development",
+    "intro": "We build from corporate landing pages to complex lightning fast web applications using modern stacks like NodeJS, React/Vite, NextJS, MongoDB & AWS S3 for cloud storage engineered for global reach.",
+    "description": [
+      "For the frontend frame works, we use React/Vite & Next.js to ensure your website is seach engine ready from day one. In the Cameroonian and global market, being the first result on Google is the fastest way to grow.",
+      "A conbination of Node.js, MongoDB and Express routing allows us to build robust feature complete web applications from simple CRUD (Create, Read, Update and Delete) features to RBA (Role Based access) authentication system backend servers.",
+      "We offload heavy media to Amazon's global servers so your website remains fast and responsive, even when users are browsing on limited data plans by the use of AWS S3 bucket.",
+      "To power complex business logic, we deploy robust Node.js backends paired with the flexible data modeling of MongoDB. By utilizing AWS S3 for secure, global cloud storage, we ensure that every application we craft is a high-performance digital reality capable of competing and winning in a global economy.",
+      "Full stack architecture is made possible through the combination of our frontend and backend toolkit."
+    ],
+    "image": "web-development.jpg",
+    "conclusion": [
+      "Your business deserves more than just a website; it requires a high-performance engine designed for the modern economy. At WebDev247, we combine the power of Frontend(Next.js, Pug JS, React/Vite, HTML, CSS and JavaScript), backend(Node.js, Express and MongoDB database) and AWS to engineer digital solutions that are as scalable as they are secure.",
+      "Don't let technical limitations hold back your growth. Partner with a team that turns complex code into a competitive advantage. Contact us today to start building a web presence that leads the market in Cameroon and beyond."
+    ],
+    "conclusion_heading": "Scalable Architecture & High Performance.",
+    "slug": "web-development",
+    "icon": "fa-solid fa-globe",
+    "contactStatement": "Request a Technical Consultation"
+  },
+  {
+    "title": "UI/UX Design",
+    "intro": "Design is more than aesthetics; it’s about the user journey. We create intuitive interfaces that reduce friction and increase conversion, ensuring your brand stands out.",
+    "description": [
+      "Design is how it works, not just how it looks. We create intuitive, research-driven interfaces that minimize user friction and maximize engagement for both local and international audience.",
+      "We ensure a flawless experience across mobile, tablet, and desktop. Reducing high bounce rates and confusing navigation that costs businesses revenue.",
+      "For improved product communication, we use high-quality imagery and layouts that reflect local culture and brand values, making your business more relatable.",
+      "We identify and remove unnecessary steps in the user journey, such as over-conplicated navigations or hidden contact info."
+    ],
+    "image": "ui-ux.jpg",
+    "conclusion": [
+      "Great design is the difference between a bounce and a conversion. At WebDev247, we bridge the gap between human psychology and technical precision to create interfaces that feel natural and perform flawlessly. Whether you are launching a new startup or revitalizing an established brand, our research-driven approach ensures your users stay engaged and your business stays ahead.",
+      "Whether you are targeting the local Cameroonian market or a global audience, our UI/UX methodology ensures your digital presence is intuitive, accessible, and engineered to convert visitors into lifelong advocates.",
+      "Reach out to us today to transform your vision into a world-class user experience that dominates the Cameroonian and global markets."
+    ],
+    "conclusion_heading": "Frictionless User Journeys.",
+    "slug": "ui-ux-design",
+    "icon": "fa-solid fa-compass-drafting",
+    "contactStatement": "Request a UI/UX Consultation"
+  },
+  {
+    "title": "Web maintenance & support",
+    "intro": "A website is a living asset. We provide ongoing technical support, security patches, and performance optimizations to ensure your online presence never sleeps.",
+    "description": [
+      "Proactive Security & Vulnerability Defense: We execute a multi-layered security protocol that includes active firewall monitoring, regular malware deep-scans, and immediate patching of framework dependencies. This ensures your digital assets are shielded from evolving cyber threats while maintaining the high-level encryption standards required for global trust.",
+      "We continuously tune your platform’s \"vitals\" by pruning databases, optimizing server-side caching, and compressing media assets. This guarantees that your site remains lightweight and ultra-fast, providing a seamless experience for users in Cameroon on variable data connections while preserving your SEO rankings.",
+      "Infrastructure Reliability & Cloud Redundancy: We provide 24/7 uptime monitoring paired with automated, encrypted backups to AWS S3, ensuring 100% data integrity and recovery. By managing your cloud environment with precision, we guarantee that your business stays online and functional, regardless of local hardware failures or traffic spikes.",
+      "We conduct routine audits of the entire site architecture to identify and resolve broken links, 404 errors, and functional bugs. This rigorous attention to detail ensures that the user journey remains frictionless, preserving your professional reputation and preventing loss of conversion.",
+      "We offer strategic technical updates, from integrating new communication tools like WhatsApp to synchronizing marketing content and iterating on minor features. This ensures your platform isn't just \"running,\" but is actively evolving to meet the shifting demands of the local and international markets."
+    ],
+    "image": "maintenance.jpg",
+    "conclusion": [
+      "Your digital platform is an investment that requires constant vigilance and precision tuning to remain a competitive asset. At WebDev247, we take the technical burden off your shoulders, providing the 24/7 security, performance optimization, and cloud reliability your business demands to thrive.",
+      "Don't wait for a critical failure to protect your online presence—partner with us for proactive maintenance that guarantees peace of mind. Contact our support team today to secure a maintenance plan tailored to your long-term success."
+    ],
+    "conclusion_heading": "24/7 Reliability & Security.",
+    "slug": "web-maintenance-and-support",
+    "icon": "fa-solid fa-gear",
+    "contactStatement": "Secure your website now!"
+  },
+  {
+    "title": "SEO Management",
+    "intro": "Being online isn't enough; you must be found. Our data-driven SEO strategies help you dominate search results in Cameroon and international markets, driving targeted traffic to your platform.",
+    "description": [
+      "We engineer the backend of your site to ensure it meets Google’s strictest performance standards. This includes optimizing site architecture, implementing Schema Markup for rich snippets, and ensuring ultra-fast load times. By mastering these \"under-the-hood\" elements, we provide a stable foundation that allows your business to rank higher and stay there.",
+      "Strategic Keyword Engineering & Local Intent: We conduct deep-dive research to identify high-value search terms specific to the Cameroonian and global markets. We don't just target high-volume words; we target \"intent.\" Whether someone is searching for services in Douala or products for the international market, we ensure your content matches their specific needs at every stage of the funnel.",
+      "By building \"Topic Clusters\" and high-quality, authoritative content, we position your brand as a leader in your niche. This builds the long-term trust required to dominate search results without relying on expensive paid advertising.",
+      "SEO is not a \"set and forget\" service. We utilize advanced tracking tools to monitor your rankings, click-through rates, and user behavior. By analyzing this data, we constantly refine our strategy adjusting to algorithm updates and market shifts."
+    ],
+    "image": "seo.jpg",
+    "conclusion": [
+      "Visibility is the heartbeat of digital growth. In an increasingly crowded marketplace, being found on the first page of Google is the ultimate competitive advantage. At WebDev247, we combine technical SEO engineering with strategic market insights to ensure your business doesn't just rank, but dominates a Cameroon and global market.",
+      "Stop losing potential customers to your competitors and start owning your search results today. Contact us now for a comprehensive SEO audit and let’s put your brand at the top where it belongs."
+    ],
+    "conclusion_heading": "Technical Authority & Organic Growth.",
+    "slug": "seo-management",
+    "icon": "fa-brands fa-searchengin",
+    "contactStatement": "Increase your visibility"
+  },
+  {
+    "title": "Web Analytics",
+    "intro": "We help you understand your audience. By integrating advanced tracking and behavior analysis, we provide the insights needed to refine your strategy and maximize ROI(Return on Investment).",
+    "description": [
+      "By engineering events for button clicks, form submissions, and page views, we map out exactly how users interact with your interface. This level of detail allows us to identify precisely which features are engaging your audience and which are being ignored.",
+      "We analyze data to segment your traffic by location (e.g., Douala vs. Yaoundé vs. International) and device type. This allows us to understand the specific habits of your users, such as whether they browse at night to save on data bundles enabling you to tailor your marketing messages and technical updates to the reality of the local market.",
+      "Data-Driven Heatmapping & User Experience Insights: We utilize visual heatmaps to see exactly where users are looking and clicking on your site. This \"behavioral intelligence\" reveals if your most important information is being seen or if users are getting distracted by non-essential elements. We use these insights to make surgical design adjustments that keep your users focused on your core business goals",
+      "Instead of overwhelming you with numbers, we focus on Key Performance Indicators (KPIs) that matter to your bottom line. We provide a continuous feedback loop that informs your future business decisions, ensuring your digital strategy evolves alongside the global economy."
+    ],
+    "image": "analytics.jpg",
+    "conclusion": [
+      "In the modern business landscape, data is the difference between guessing and growing. At WebDev247, we provide the technical clarity you need to decode user behavior, optimize your investments, and scale your operations with scientific precision.",
+      "Stop leaving your digital success to chance and start making informed, data-driven decisions that guarantee results. Contact us today for a professional analytics consultation and turn your raw data into a roadmap for market leadership."
+    ],
+    "conclusion_heading": "Data-Driven Decision Making.",
+    "slug": "web-analytics",
+    "icon": "fa-solid fa-chart-line",
+    "contactStatement": "Get a data strategy session"
+  }
+]
