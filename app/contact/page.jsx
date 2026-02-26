@@ -32,10 +32,10 @@ function Contact() {
               >
                 <i className="fa-solid fa-envelope"></i>
                 <span>
-                  <a href={`mailto${email.email}`}>{email.email}</a>
+                  <a href={`mailto:${email.email}`}>{email.email}</a>
                 </span>
                 <a
-                  href={`mailto${email.email}`}
+                  href={`mailto:${email.email}`}
                   className="btn btn-clear--light"
                 >
                   Send mail
